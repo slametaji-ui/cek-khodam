@@ -11,7 +11,7 @@ const FormCheckNama = () => {
     setLoading(true); // Set loading to true when the request starts
 
     try {
-      const response = await fetch('http://localhost:3001/api/data', {
+      const response = await fetch('https://check-khodam-eosin.vercel.app/api/data', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
