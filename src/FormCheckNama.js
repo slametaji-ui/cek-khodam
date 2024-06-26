@@ -33,10 +33,10 @@ const FormCheckNama = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 bg-cover bg-center" style={{ backgroundImage: `url('https://c.wallhere.com/photos/25/2d/animals_tiger-5851.jpg!d')` }}>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 bg-cover bg-center">
       <div className="flex flex-col items-center bg-white bg-opacity-15 p-9 shadow-lg pt-4 mt-4 text-center rounded-xl py-4 px-4">
       <img src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-tiger-funny-png-image_9014537.png" alt="Pertamina Logo" className="mb-2 h-24" />
-        <h1 className="text-2xl font-bold mb-8 px-28 text-center text-white">Check Khodam Pendamping</h1>
+        <h1 className="text-2xl font-bold mb-8 px-28 text-center">Check Khodam Pendamping</h1>
         <form onSubmit={handleSubmit} className="w-full max-w-xl">
           <div className="flex items-center border border-gray-300 rounded-full shadow-sm p-2 bg-white">
             <input
